@@ -1,10 +1,57 @@
+# Logs
+
+logs
+
+*.log
+
+npm-debug.log*
+
+# Dependency directories
+
+node_modules
+
+# Visual Studio Code
+
+.vscode
+
+.vs
+
+# Frontend specific dependencies
+
+.pnp
+
+.pnp.js
+
+# Testing
+
+coverage
+
+# Production
+
+build
+
+# Misc
+
 .DS_Store
-applet
-application.linux-arm64
-application.linux-armv6hf
-application.linux32
-application.linux64
-application.windows32
-application.windows64
-application.macosx
-out
+
+.env.local
+
+.env.development.local
+
+.env.test.local
+
+.env.production.local
+
+# ESLint
+
+.eslintcache
+
+# Runtime data
+
+pids
+
+*.pid
+
+*.seed
+
+*.pid.lock
